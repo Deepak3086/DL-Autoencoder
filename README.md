@@ -32,7 +32,7 @@ Visualization and Analysis
 
 ## PROGRAM
 
-### Name: DEEPAK JF=G
+### Name: DEEPAK JG
 
 ### Register Number: 212224220019
 
