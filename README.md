@@ -6,11 +6,6 @@ To develop a convolutional autoencoder for image denoising application.
 ## THEORY
 This code implements a **Denoising Autoencoder** using PyTorch to clean noisy images from the MNIST dataset. It uses a convolutional neural network architecture, where the encoder compresses the input image into a lower-dimensional representation, and the decoder reconstructs the original image from this compressed form. To train the model to remove noise, Gaussian noise is added to the clean images, and the network learns to recover the original from the noisy version. The training process uses **Mean Squared Error (MSE)** as the loss function to measure the reconstruction error and the **Adam optimizer** to update the model weights. The autoencoder is trained over multiple epochs using mini-batches of data for efficiency. After training, the model's performance is visually evaluated by displaying the original, noisy, and denoised images side by side.
 
-
-
-## Neural Network Model
-Include the neural network model diagram.
-
 ## DESIGN STEPS
 ### STEP 1: 
 Problem Understanding and Dataset Selection
@@ -172,13 +167,19 @@ visualize_denoising(model, test_loader)
 ### OUTPUT
 
 ### Model Summary
-<img src="https://img.sanishtech.com/u/4643b58fee4e30c9d45ba066fffbce8b.png" alt="Screenshot 2026-03-15 182528" width="611" height="390" loading="lazy" style="max-width:100%;height:auto;">
+
+<img width="598" height="407" alt="image" src="https://github.com/user-attachments/assets/7eaa17d6-8234-406e-93d3-b786d6c06695" />
+
 
 ### Training loss
-<img src="https://img.sanishtech.com/u/e9e3cf1649d93dae0669a70183d3b573.png" alt="Screenshot 2026-03-15 182614" width="357" height="123" loading="lazy" style="max-width:100%;height:auto;">
+
+<img width="346" height="121" alt="image" src="https://github.com/user-attachments/assets/b0d269ce-5c34-4812-9245-867b33387a41" />
+
 
 ## Original vs Noisy Vs Reconstructed Image
-<img src="https://img.sanishtech.com/u/a7bcc6db7c8e79012bcc2b7a8dab045f.png" alt="Screenshot 2026-03-15 182714" width="1684" height="581" loading="lazy" style="max-width:100%;height:auto;">
+
+<img width="1724" height="605" alt="image" src="https://github.com/user-attachments/assets/d526e839-f64c-462d-97fe-de1e7fcb9712" />
+
 
 ## RESULT
 Therefore, To develop a convolutional autoencoder for image denoising application executed successfully.
